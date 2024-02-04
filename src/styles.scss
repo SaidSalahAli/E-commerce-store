@@ -1,1 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Kufi+Arabic:wght@300;400;600&display=swap');
 /* You can add global styles to this file, and also import other style files */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body { height: 100%; }
+body { margin: 0;
+  padding: 0; font-family: 'Noto Kufi Arabic', sans-serif;}
+
+// html, body { height: 100%; }
+// body { margin: 0; padding: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
